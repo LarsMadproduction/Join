@@ -159,11 +159,11 @@
   }
 
   .close-cross img {
-    content: url('/assets/img/png/close-white.png');
+    content: url("/assets/img/png/close-white.png");
   }
 
   .close-cross:hover img {
-    content: url('/assets/img/png/close.png');
+    content: url("/assets/img/png/close.png");
   }
 
   .dialog-right {
@@ -185,13 +185,13 @@
 @media screen and (max-width: 650px) {
   .contacts-content {
     width: 200vw;
-    position: relative;
     margin-block: 80px;
     transition: transform 0.5s ease;
   }
 
   .contact-box,
   .contact-info {
+    height: calc(100vh - 160px);
     width: 100vw;
     padding: 16px 16px;
   }
@@ -273,14 +273,14 @@
   }
 
   .mobile-menu .mobile-edit-img:hover {
-    content: url('/assets/img/png/edit-hover.png');
+    content: url("/assets/img/png/edit-hover.png");
     background-color: rgb(245, 246, 247);
     border-radius: 9px;
     padding: 9px 24px 9px 9px;
   }
 
   .mobile-menu .mobile-delete-img:hover {
-    content: url('/assets/img/png/delete-hover.png');
+    content: url("/assets/img/png/delete-hover.png");
     background-color: rgb(245, 246, 247);
     border-radius: 9px;
     padding: 9px 6px 9px 9px;

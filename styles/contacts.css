@@ -5,6 +5,7 @@
   margin-top: 96px;
   display: flex;
   flex-direction: row;
+  position: fixed;
 }
 
 .contact-box {
