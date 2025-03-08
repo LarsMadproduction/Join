@@ -191,7 +191,7 @@
 
   .contact-box,
   .contact-info {
-    height: calc(100vh - 160px);
+    height: calc(100svh - 160px);
     width: 100vw;
     padding: 16px 16px;
   }
